@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item
-        android:icon="@drawable/ic_message"
-        android:id="@+id/item_message"
-        android:title="Contact"
-        />
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
 
     <item
-        android:icon="@drawable/ic_home"
+        android:id="@+id/item_contact"
+        android:icon="@drawable/ic_message"
+        android:title="@string/Contact" />
+    <item
         android:id="@+id/item_home"
-        android:title="Home"
-        />
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+
+
     <item
         android:icon="@drawable/ic_camera"
         android:id="@+id/item_camera"
@@ -27,4 +29,5 @@
         android:title="Account"
         android:enabled="true"
         />
+
 </menu>

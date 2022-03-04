@@ -13,7 +13,8 @@
         android:background="@color/pink"
         app:itemTextColor="@color/blue"
         app:itemIconSize="24dp"
-        app:menu="@menu/menu"/>
+        app:menu="@menu/menu"
+        />
 
 
     <FrameLayout
